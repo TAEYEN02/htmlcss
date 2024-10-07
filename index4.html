@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html4</title>
+    <style>
+        .container{
+            /* 
+                display : block, inline, inline-block, flex, grid
+                [block] : 한줄 모두 차지 줄바꿈 (div, p, h1~h6)
+                [inline] : 내 크기만큼만 차지, 줄바꿍 없음, 크기변경 불가 (a, img, span)
+                [inline-block] : 내 크기만큼만 차지, 줄바꿈 없음, 크기변경 가능
+                [flex] : 가로정렬/ 세로정렬 편하게
+                [grid] : 표 형태로 정렬 편하게
+            */
+                display: flex;
+                height: 100px;
+        }
+        .middel{
+            display:flex;
+            height: 400px;
+        }
+        .hedder1{
+            height: 100px;
+        }
+        .senter{
+            margin: auto;
+            width: 500px;
+            height: 400px;
+            border: 1px solid purple;
+        }
+        .h{
+            background: pink;
+            height: 10%;
+        }
+        .m{
+            height: 80%;
+            display: flex;
+        }
+        .m-1{
+            background: skyblue;
+            width: 30%;
+        }
+        .m-2{
+            background: beige;
+            width: 70%;
+        }
+        .b{
+            background: lightsalmon;
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="background: pink ; width: 50%;">1</div>
+        <div style="background: skyblue; width: 50%;">2</div>
+    </div>
+   <div style="background: greenyellow;">3</div>
+
+   <br><hr><br>
+    
+   <div class="hedder1" style="background: skyblue;">1</div>
+   <div class="middel">
+        <div style="background: blue;width: 30%;">2</div>
+        <div style="background:aqua; width: 70%;">3</div>
+   </div>
+   <div class="hedder1" style="background: gray;">4</div>
+
+   <br><hr><br> 
+   <!--더 간단하게 style 시트 써가면서-->
+   <div class="senter">
+        <div class="h"></div>
+        <div class="m">
+            <div class="m-1"></div>
+            <div class="m-2"></div>
+        </div>
+        <div class="b"></div>
+   </div>
+</body>
+</html>
