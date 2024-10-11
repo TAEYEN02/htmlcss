@@ -1,0 +1,21 @@
+body {
+  padding: 10px;
+}
+
+.fire {
+  color: white;
+  font-size: 20px;
+  background-color: #ff7979;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #ff7979;
+  margin-right: 10px;
+}
+.message {
+  color: white;
+  background-color: #569aff;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  border: 1px solid #569aff;
+}
+/* icon 의 크기는 font-size*/
