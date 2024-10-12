@@ -1,0 +1,16 @@
+.coupon {
+  padding: 10px 60px 10px 60px;
+  background-color: #4fd3fc;
+  color: white;
+  font-weight: 600;
+  border: 1px solid #4fd3fc;
+  border-radius: 4px;
+}
+.share {
+  padding: 10px 30px 10px 30px;
+  background-color: whitesmoke;
+  color: grey;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  font-weight: 600;
+}

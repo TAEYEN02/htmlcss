@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.color {
+  width: 700px;
+  height: 100px;
+}
+.LIGHT {
+  background-color: #55efc4;
+}
+.FADEDPOSTER {
+  background-color: #81ecec;
+}
